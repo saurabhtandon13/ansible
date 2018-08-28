@@ -2,7 +2,7 @@
 - name: CHECKING THE READINESS OF THE HOST
   hosts: localhost
   gather_facts: no
-  become: yes
+  become: no
 
   tasks:
   - name: PINING THE HOST FOR  AVAILABILITY
