@@ -1,6 +1,6 @@
 ---
 - name: CHECKING THE READINESS OF THE HOST
-  hosts: localhost
+  hosts: everyone
   gather_facts: no
   become: no
 
